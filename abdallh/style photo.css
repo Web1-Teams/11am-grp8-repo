@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+.position-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3.75rem;
+}
+.all-img{
+width:400px ;
+height: 500px ;
+overflow: hidden;
+border-radius:20px ;
+border: 2px solid black;
+}
+.animation-img{
+  display: grid;
+  grid-template-columns: repeat(10,400px); 
+}
+.imgbrad{
+    width: 400px;
+    height: 500px;
+}
+.animation-img:hover{
+    animation: brad 25s infinite;
+    animation-play-state:running;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    cursor: pointer;
+
+
+}
+
+@keyframes brad  { 
+    0% { transform: translateX(0);
+    }
+    100% { 
+        transform: translateX(-3600px);
+    }
+  }
+#textphoto{
+    margin-top: 20rem;
+    margin-left: 54rem;
+    font-style: oblique;
+    font-size: 3rem;
+}
+#textphoto::first-letter{
+    color: yellow;
+    font-size: 3.5rem ;
+}
+.home1{
+    text-decoration: none;
+    top: 36.5rem;
+    left:75rem;
+    background-color: aqua;
+    color:black;
+    font-size: 1rem;
+    padding:  1rem 2rem;
+    border-radius: 5rem;
+   opacity: 0.5;
+   visibility:0.5;
+}
+
+
+.idBio::first-letter{
+    font-size:50px ;
+    color: black;
+    margin-left: 300px;
+    padding: 5px;
+}
+.News{
+    display: flex;
+     
+}
+#linkhome{
+     background-color: blue;
+    animation-name: home;
+    font-size: larger;
+    width: 3rem;
+    text-align: center;
+    padding: auto;
+    color:white;
+    
+}
+@keyframes home {
+ 0%{
+    opacity: 0;
+ }
+ 100%{
+    opacity: 1;
+    position: fixed;
+ }
+
+}
+
+
+ 
+ 
+
+
+  
+  
+
+ 
