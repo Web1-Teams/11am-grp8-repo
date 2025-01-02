@@ -1,0 +1,272 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: "Cormorant", serif;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.hero,
+.home {
+  background-color: #ccc;
+  background-image: url("../images/mainphoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+}
+
+.home-text {
+  font-weight: 700;
+  padding-top: clamp(100px, 30vh, 200px);
+  text-align: center;
+  color: white;
+  animation: show 1s linear;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 5%;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.navhome {
+  text-decoration: none;
+  color: white;
+}
+
+.threenav a,
+.threenav button {
+  margin: 0 20px;
+  font-size: clamp(14px, 2vw, 17px);
+}
+
+.design {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.design img {
+  width: 100%;
+  height: auto;
+}
+.carousel-item img {
+  height: clamp(200px, 60vh, 600px);
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 20%;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 800px;
+}
+.songbody {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  aspect-ratio: 1;
+}
+
+.songbody img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+}
+
+.effect {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  text-decoration: none;
+  color: white;
+  transition: opacity 0.5s ease;
+}
+
+.songbody:hover {
+  .effect {
+    opacity: 1;
+  }
+  
+  img {
+    transform: scale(1.1);
+  }
+}
+.login-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.login {
+  border: 1px solid white;
+  background-color: black;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  transition: 0.5s;
+  margin-right: clamp(20px, 5vw, 80px);
+}
+
+.login:hover,
+.tooltip:hover {
+  border-color: #bbb;
+  color: #bbb;
+}
+
+.tooltip {
+  position: absolute;
+  top: -100%;
+  left: 10%;
+  transform: translateX(-110%);
+  background-color: black;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+  font-size: 15px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.login-container:hover .tooltip {
+  top: -75%;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.trending-box {
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.trending-box h2 {
+  position: absolute;
+  top: 0;
+  font-family: Playfair, serif;
+  font-size: clamp(24px, 3vw, 30px);
+  text-align: center;
+}
+
+.image-slider {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  height: 600px;
+  gap: 20px;
+  animation: moveImages 9s linear infinite;
+}
+
+@keyframes moveImages {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100px); }
+}
+
+.image-slider img {
+  width: clamp(150px, 20vw, 190px);
+  height: 430px;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-slider img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 11px rgba(255, 251, 251, 0.3);
+}
+
+footer {
+  background: black;
+  border: 1px solid white;
+  border-top-left-radius: 125px;
+  color: white;
+  padding: 100px 0 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.col h3 {
+  margin-bottom: 40px;
+}
+
+.col:nth-child(2),
+.col:nth-child(3) {
+  flex: 0 1 15%;
+  min-width: 200px;
+}
+
+.social-icons .fa-brands {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: black;
+  background: white;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.transparent-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.transparent-btn:hover {
+  color: #bbb;
+}
+.trend-line {
+  width: 90%;
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  margin: 3px auto;
+}

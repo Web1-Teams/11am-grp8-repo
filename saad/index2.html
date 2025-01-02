@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+  <div class="slider">
+    <div class="slides" id="slides">
+      <div class="slide">
+        <a href="">
+          <img src="/img/actor_16_9.jpg" alt="Slide 1">
+        </a>
+        <div class="text">
+          <h1>Actor</h1>
+          <p><h3>done is better than well said</h3></p>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="">
+          <img src="/img/jo hattb.jpg" alt="Slide 2">
+        </a>
+        <div class="text">
+          <h1>Influencer</h1>
+          <p><h3>No travel, no knowledge</h3></p>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="">
+          <img src="/img/player.jpg" alt="Slide 3">
+        </a>
+        <div class="text">
+          <h1>Player</h1>
+          <p><h3>Work harder and be humble</h3></p>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="">
+          <img src="/img/podcast.jpg" alt="Slide 4">
+        </a>
+        <div class="text">
+          <h1>Podcaster</h1>
+          <p><h3>In the journey of life, knowledge is not just a goal, but a way to expand horizons and discover oneself</h3></p>
+        </div>
+      </div>
+      <div class="slide">
+        <a href="">
+          <img src="/img/songer.jpg" alt="Slide 5">
+        </a>
+        <div class="text">
+          <h1>Singer</h1>
+          <p><h3>It's okay to be lonely, because in those moments you discover yourself and rewrite your story.</h3></p>
+        </div>
+      </div>
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const slidesContainer = document.getElementById('slides');
+    function changeSlide(direction) {
+      currentSlide += direction;
+      if (currentSlide >= slides.length) currentSlide = 0;
+      if (currentSlide < 0) currentSlide = slides.length - 1;
+      slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+    }
+    document.querySelector('.prev').addEventListener('click', () => changeSlide(-1));
+    document.querySelector('.next').addEventListener('click', () => changeSlide(1));
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
