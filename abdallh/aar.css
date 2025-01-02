@@ -1,0 +1,229 @@
+
+.bio li{
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(128, 128, 128, 0.833);
+  transition: 0.5s;
+  animation: show 2s linear;
+animation-timeline: view();
+animation-range: entry 0;
+}
+main{
+  position: relative;
+}
+.bio li:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform:  scale(1.05);
+  background-color: #ccc;
+  color: white;
+}
+
+.textphoto{
+  margin-top: 3rem;
+  font-style: oblique;
+  font-size: 3rem;
+}
+.group{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  animation: show 2s linear;
+animation-timeline: view();
+animation-range: entry 0;
+
+}
+.part{
+
+  width: 32%;
+  backdrop-filter:blur(10px) ;
+  border-radius: 8px;
+  color: linear-gradient(to right,#38040E,black);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: 0.5s;
+}
+.part:hover{
+  color: black;
+  cursor: pointer;
+  border: 1px solid linear-gradient(to right,#38040E,black);
+  ;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform:  scale(1.02);
+
+}
+body{
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.mop{
+  margin-left: 10rem;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+@keyframes show{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+
+  
+ /*.col-3{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 830px;
+  background-color: #555;
+ }*/
+.idBio{
+  margin-bottom: 30px;
+  font-style: oblique;
+  font-size: 3rem;
+   
+} 
+
+  .firstphotoinNews:hover{
+    opacity: 0.7;
+  }
+  .News{
+      display: flex;
+      padding-top: 20px;
+  }
+  .firstphotoinNews{
+      border-radius: 10px;
+      border:  1px solid grey;
+      margin-right: 20px;
+      width: 200px;
+      height: 140px;
+      margin-left: 60px;
+     box-shadow: 1px 1px 6px 6px;
+  }
+  .text{
+      margin-top: 19px;
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin-left: 200px;
+    }
+    .all{
+      display: flex;
+      margin-left: 10rem;
+     
+    }
+    .awardsphoto{
+      width: 100px;
+      height: 110px;
+      border-radius: 10px;
+      border:  1px solid rgb(63, 62, 62);
+      margin-right: 1px;
+    }
+    #p-Oscar{
+      color:grey;
+      font-size: small;
+    }
+    .text1{
+      margin-top: 19px;
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+     margin-left: 10px;
+    }
+
+
+
+
+
+.row{
+width: 85%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+}
+/*.col{
+flex-basis: 25%;
+padding: 10px;
+}*/
+.col:nth-child(2),.col:nth-child(3){
+flex-basis: 15%;
+}
+
+.col h3{
+width: fit-content;
+margin-bottom: 40px;
+position: relative;
+}
+ul li{
+list-style: none;
+margin-bottom: 12px;
+}
+ul li a{
+text-decoration: none;
+color:#ccc;
+}
+
+hr{
+width: 90%;
+border: 0;
+border-bottom: 1px solid #ccc;
+margin: 20px auto;
+}
+.copy{
+text-align: center;
+}
+
+
+.idBioAwards{
+  
+  font-style: oblique;
+  font-size: 3rem;
+  margin-left: 8rem;
+  margin-top: 40rem
+}
+
+
+.Awards{
+  border: 1px solid black;
+  padding:10px 10px;
+  margin-left: 300px;
+  width: 700px;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 50rem;
+
+}
+.overview{
+  margin-top: 45rem;
+  display: grid;
+  grid-template-columns: repeat(2,600px);
+  animation: show 2s linear;
+animation-timeline: view();
+animation-range: entry 0;
+}
+
+.mg{
+  margin-top: 10rem;
+}
+.newsp{
+animation: show 2s linear;
+animation-timeline: view();
+animation-range: entry 0;
+}

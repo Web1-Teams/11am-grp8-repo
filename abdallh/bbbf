@@ -1,0 +1,446 @@
+.main{
+    background: linear-gradient(to right,#38040E,black);
+    color: #fff;
+   
+}
+  .NameInfo{
+    text-align: left;
+    padding: 20px;
+    background: linear-gradient(to right,#38040E,black);
+  }
+  .NameInfo h1{
+    margin-left:60px ;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  .NameInfo .roles{
+    margin-left:65px ;
+    font-size: 0.8rem;
+    color: #ccc;
+  }
+  
+
+  .media-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+    background: linear-gradient(to right,#38040E,black);
+    
+  }
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   height: 30rem;
+   margin-bottom: 70px;
+  /* transition: 2s;*/
+   
+  }
+  .media-image {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+  }
+  .media-image:hover{
+    transform: scale(1.1);
+  /*  width: 400px;
+    height: 31rem;*/
+    transition: 1s;
+  }
+  .video-container{
+    height: 35rem;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*transition: 2s;*/
+  }
+  .media-video{
+    
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  
+  .video-description {
+    font-size: 2rem;
+    
+    margin-top: 10px;
+
+    
+    gap: 10px;
+    color: #fff;
+  }
+
+
+/*sarah*/
+
+/*abd*/
+  
+.position-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    position: relative;
+    margin-left: 28.5rem;
+    width: 400px;
+}
+.all-img{
+width:400px ;
+height: 500px ;
+overflow: hidden;
+border-radius:20px ;
+border: 2px solid black;
+}
+.animation-img{
+  display: grid;
+  grid-template-columns: repeat(10,400px);
+}
+.imgbrad{
+    width: 400px;
+    height: 500px;
+}
+.animation-img:hover{
+    animation: brad 25s infinite;
+    animation-play-state:running;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    cursor: pointer;
+}
+@keyframes brad  {
+    0% { transform: translateX(0);}
+    100% { transform: translateX(-3600px);
+    }
+  }
+#textphoto{
+    margin-top: 0.6rem;
+    margin-left: 28rem;
+    font-style: oblique;
+    font-size: 3rem;
+}
+#textphoto::first-letter{
+    color: rgb(250,0,0);
+    font-size: 3.5rem ;
+}
+/*abd*/
+
+
+  /*lian*/
+ 
+  .movies{
+    margin-top: 10rem;
+    width: 24%;
+    margin: 10px;;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mov{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: 1px solid rgba(128, 128, 128, 0.833);
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    right: 0;
+    transition: 0.5s;
+    animation: show 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+  }
+  .mov:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform:  scale(1.05);
+  }
+  .photo img{
+    width: 60px;
+    border-radius: 4px;
+  }
+  .title p{
+    display: inline;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .title p:hover{
+    opacity: 0.6;
+  }
+  span{
+    color: gray;
+  }
+  .totop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: navy;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    height: 30px;
+    width: 30px;
+  }
+  .totop img{
+    width:30px ;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .totop:hover{
+   background-color: rgb(7, 7, 167);
+  }
+  #textmovies{
+    margin-top: 0.6rem;
+    margin-left: 28rem;
+    font-style: oblique;
+    font-size: 3rem;
+ }
+ #textmovies::first-letter{
+    color: rgb(250,0,0);
+    font-size: 4rem ;
+    
+ }
+  @keyframes show{
+    from{
+      opacity: 0;
+      scale: 0.5;
+    }
+    to{
+      opacity: 1;
+      scale: 1;
+    }
+  }
+  /*lian*/
+    
+
+  /*mo*/
+  
+  .overview{
+    border: 1px solid black;
+    padding:10px 10px;
+    margin-left: 200px;
+    width: 700px;
+    border-radius: 10px;
+    text-align: left;
+  
+    }
+    .hr{
+       width: 780px;
+       margin-right:600px  ;
+    }
+    .Bio{
+        border: 1px solid black;
+        padding: 10px 5px;
+        margin-left: 200px;
+        width: 700px;
+        border-radius: 10px;
+    }
+    .idBio{
+       
+
+        font-style: oblique;
+        font-size: 3rem;
+     
+} 
+   .idBio::first-letter{
+        font-size:50px ;
+        color: rgb(250,0,0);
+        margin-left: 200px;
+        padding: 5px;
+    }
+    .firstphotoinNews:hover{
+      opacity: 0.7;
+    }
+    .News{
+        display: flex;
+        padding-top: 20px;
+    }
+    .firstphotoinNews{
+        border-radius: 10px;
+        border:  1px solid grey;
+        margin-right: 20px;
+        width: 200px;
+        height: 140px;
+        margin-left: 60px;
+       box-shadow: 1px 1px 6px 6px;
+    }
+    .text{
+        margin-top: 19px;
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin-left: 200px;
+      }
+      .all{
+        display: flex;
+        margin: left 30px;
+      }
+      .awardsphoto{
+        width: 100px;
+        height: 110px;
+        border-radius: 10px;
+        border:  1px solid rgb(63, 62, 62);
+        margin-right: 1px;
+      }
+      #p-Oscar{
+        color:grey;
+        font-size: small;
+      }
+      .text1{
+        margin-top: 19px;
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+       margin-left: 10px;
+      }
+
+/*ma*/
+
+
+footer{
+
+bottom: 0;
+left: 0;
+width: 100%;
+background: linear-gradient(to right,#38040E,black);
+color: #ccc;
+padding: 100px 0 30px;
+border-top-left-radius: 125px ;
+font-size: 13px;
+line-height: 20px;
+}
+.row{
+width: 85%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+}
+.col{
+flex-basis: 25%;
+padding: 10px;
+}
+.col:nth-child(2),.col:nth-child(3){
+flex-basis: 15%;
+}
+.logo{
+width: 200px;
+height: 200px;
+margin-bottom: 30px;
+}
+.col h3{
+width: fit-content;
+margin-bottom: 40px;
+position: relative;
+}
+ul li{
+list-style: none;
+margin-bottom: 12px;
+}
+ul li a{
+text-decoration: none;
+color:#ccc;
+}
+form{
+padding-bottom: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid #ccc;
+margin-bottom: 50px;
+}
+form .fa-solid{
+font-size: 18px;
+margin-right: 10px;
+}
+form input{
+width: 100%;
+background: transparent;
+color: #ccc;
+border: 0;
+outline: none;
+}
+form button{
+background: transparent;
+border: 0;
+outline: none;
+cursor: pointer;
+}
+form button .fa-solid{
+font-size: 16px;
+color: #ccc;
+}
+.social-icons .fa-brands{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+color: #000;
+background: #fff;
+margin-right: 15px;
+cursor: pointer;
+}
+hr{
+width: 90%;
+border: 0;
+border-bottom: 1px solid #ccc;
+margin: 20px auto;
+}
+.copy{
+text-align: center;
+}
+
+
+/*++*/
+ /*----------------------------------------------*/
+
+
+.pagebr{
+    display: grid;
+    grid-template-columns: repeat(2,800px);
+}
+
+.oooo{
+    display: grid;
+    grid-template-columns: repeat(2,800px);
+}
+
+.idBioAwards{
+    
+    font-style: oblique;
+    font-size: 3rem;
+    margin-left: 8rem;
+    margin-top: 40rem
+}
+
+.idBioAwards::first-letter{
+    color: rgb(250,0,0);
+    font-size: 4rem ;
+  ;
+
+}
+.Awards{
+    border: 1px solid black;
+    padding:10px 10px;
+    margin-left: 300px;
+    width: 700px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 50rem;
+
+}

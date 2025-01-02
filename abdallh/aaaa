@@ -1,0 +1,307 @@
+  
+<main>
+    <div class="NameInfo">
+        <h1>Brad Pitt</h1>
+        <p class="roles">Producer &middot;  Actor &middot; Executive</p>
+</div>
+<div class="media-section">
+  <div class="image-container">
+    <img src="Brad_Pitt-69858.jpg" alt="Brad Pitt" class="media-image">
+  </div>
+  <div class="video-container">
+    <video controls poster="imageforthevid.webp" class="media-video">
+      <source src="Watch Brad Pitt Thank His Kids During 2020 Oscars Speech.mp4" type="video/mp4">
+      <source src="Watch Brad Pitt Thank His Kids During 2020 Oscars Speech.ogg" type="video/ogg">
+      <source src="Watch Brad Pitt Thank His Kids During 2020 Oscars Speech.webm" type="video/webm">
+      Your browser does not support videos!
+    </video>
+  
+    <p class="video-description">
+      Watch Brad Pitt Speech in 2020 Oscars
+    </p>
+  </div>
+</div>
+
+</main>
+
+<h2 id="textphoto">| photo</h2>
+    <div class="position-img">
+   <div class="all-img">
+    <div class="animation-img">
+    <img  src="bradpitt1.jpg" class="imgbrad">
+    <img  src="bradpitt2.jpg" class="imgbrad">
+    <img  src="bradpitt3.jpg"class="imgbrad">
+    <img  src="bradpitt4.jpg"class="imgbrad">
+    <img  src="bradpitt5.jpg"class="imgbrad">
+    <img  src="bradpitt6.jpg"class="imgbrad">
+    <img  src="bradpitt7.jpg"class="imgbrad">
+    <img  src="bradpitt8.jpg"class="imgbrad">
+    <img  src="bradpitt9.jpg"class="imgbrad">
+    <img  src="bradpitt10.jpg"class="imgbrad">
+    </div>
+   </div>
+    </div>
+<!-- abd -->
+
+<!-- lian -->
+<aside class="movies">
+
+  <h2>movies</h2>
+  <div class="mov">
+    <div class="title">
+      <p>Fight Club</p>
+      <br>
+      <br>
+      <span>1999 &#183; 2h 19m &#183;&#11088;8.8</span>
+    </div>
+    <div class="photo">
+      <img src="fightclub.jpeg" >
+    </div>
+  </div>
+  <div class="mov">
+    <div class="title">
+      <p>Moneyball</p>
+      <br>
+      <br>
+     <span>2011 &#183; 2h 13m &#183;&#11088;7.6</span>
+    </div>
+    <div class="photo">
+      <img src="moneyball.jpeg" alt="">
+    </div>
+  </div>
+  <div class="mov">
+    <div class="title">
+      <p>Ocean's Eleven</p>
+      <br>
+      <br>
+      <span>2001 &#183; 1h 56m &#183;&#11088;7.7</span>
+    </div>
+    <div class="photo">
+      <img src="oceans11.jpeg" alt="">
+    </div>
+  </div>
+  <div class="mov">
+    <div class="title">
+      <p>Troy</p>
+      <br>
+      <br>
+      <span>2004 &#183; 2h 43m &#183;&#11088;7.3</span>
+    </div>
+    <div class="photo">
+      <img src="troy.jpeg" alt="">
+    </div>
+  </div>
+  <div class="mov">
+    <div class="title">
+      <p>Inglourious Basterds</p>
+      <br>
+      <br>
+      <span>2009 &#183; 2h 33m &#183;&#11088;8.4</span>
+    </div>
+    <div class="photo">
+      <img src="Inglourious.jpeg" alt="">
+    </div>
+  </div>
+  <div class="mov">
+    <div class="title">
+      <p>babel</p>
+      <br>
+      <br>
+      <span>2006 &#183; 2h 23m &#183;&#11088;7.5</span>
+    </div>
+    <div class="photo">
+      <img src="babel.jpeg" alt="">
+    </div>
+  </div>
+  <div class="mov">
+    <div class="title">
+      <p>once upon a time <br>in hollywood</p>
+      <br>
+      <br>
+      <span>2019 &#183; 2h 41m &#183;&#11088;7.6</span>
+    </div>
+    <div class="photo">
+      <img src="once apon a time in hw.jpeg" alt="">
+    </div>
+  </div>
+</aside>
+<a href="#" class="totop">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAbpJREFUSEvt1b
+  trVUEQx/FPVBAbC0GwSyNoYRGwUvEPiEHFRzAxIjbGQgMWsQmkEittRBuxEVEJiA8iopBOUHtBsLBJEwKChZXPaAbmwuES79mTK6a52+we
+  zsx8Z347u9tnjUbfGnH1wP9N+Z7UTaS+nMbTTZxatquV+iomM8g1XGoKXw34Bi60gW5iogm8KTgA5xMwn3N/ztdxsRReCg67WzibgRexJ9dvsS3XtzFeAi8Bh80dnK5A9+Njfm/HG2ytwM/hd6cE6sDt0E/Ym9DBDPwCO/GqAr+LM53gdeB1eIYD+Ix9+IAhPElwrOcS/hpbMIsjWPpb1XXg8NuEh5jCu4Q+xYYM+iMhzzGAKziGr91I3e57fLmyGazHt/y5Eb9wAo9KGitsSipuxRrBvYR+x+H8EVsR1Qd8uLIFHXMoBQf0QSb6EwfxMiMfykpb8FOpStfgOEZxnCLJqOpoNk81cMAfpxpxjE7Wwesqjr18jx15NGIfo9FWGqO4nwlG5+/KRFc0rgOHU1yJcTvFQxCBO40xxKOxe/kGW/gXXb0ZXwo7tsi2pOJCXjOzHriZXl1Y96TuQrxmrn8A8HlJH4d/TgoAAAAASUVORK5CYII="/>
+</a>
+
+<!-- mo -->
+<h1 class="idBio">| Overview</h1>
+    <div class="overview">
+        <table>
+            <thead>
+                <tr>
+                    <th>Born December 18, 1963 - Shawnee, Oklahoma, USA <hr style="width: 700px;margin-right: 700px;"></th>
+                </tr>
+                <tr>
+                    <th>Birth name William Bradley Pitt<hr style="width: 700px;margin-right: 700px;"></th>
+                </tr>
+                <tr>
+                    <th>Nick name Brad<hr style="width: 700px;margin-right: 700px;"></th>
+                </tr>
+                <tr>
+                    <th>Height (180 cm)<hr style="width: 700px;margin-right: 700px;"></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <h1 class="idBio">| Bio</h1>
+        <div class="Bio">
+            William Bradley "Brad" Pitt was born on December 18, 1963 in Shawnee, Oklahoma and raised in<br>
+            Springfield, Missouri to Jane Etta Pitt (née Hillhouse), a school counselor & William Alvin "Bill" Pitt, a <br>
+            truck company manager. At Kickapoo High School, Pitt was involved in sports, debating, student <br>
+            government and school musicals. Pitt attended the University of Missouri, where he majored in<br>
+            journalism with a focus on advertising. He occasionally acted in fraternity shows. He left college two<br>
+            credits short of graduating to move to California. Before he became successful at acting, Pitt supported<br>
+            himself by driving strippers in limos, moving refrigerators and dressing as a giant chicken while working<br>
+            for El Pollo Loco.<br>
+            <br>
+            <br>
+            Pitt's earliest credited roles were in television, starting on the daytime soap opera Another World (1964)<br>
+            before appearing in the recurring role of Randy on the legendary prime time soap opera Dallas (1978). <br>
+            Following a string of guest appearances on various television series through the 1980s, Pitt gained<br>
+            widespread attention with a small part in Thelma & Louise (1991), in which he played a sexy criminal<br>
+            who romanced and conned Geena Davis. This led to starring roles in badly received films such as Johnny<br>
+            Suede (1991) & Cool World (1992).<br>
+            <br>
+            <br>
+            But Pitt's career hit an upswing with his casting in A River Runs Through It (1992), which cemented his<br>
+            status as an multi-layered actor as opposed to just a pretty face. Pitt's subsequent projects were as<br>
+            quirky and varied in tone as his performances, ranging from his unforgettably comic cameo as stoner<br>
+            roommate Floyd in True Romance (1993) to romantic roles in such visually lavish films as Interview with<br>
+            the Vampire (1994) and Legends of the Fall (1994), to an emotionally tortured detective in the horror-<br>
+            thriller Se7en (1995). His portrayal of frenetic oddball Jeffrey Goines in 12 Monkeys (1995) won him a<br>
+            Globe for Best Performance by an Actor in a Supporting Role.<br>
+            <br>
+            <br>
+            Pitt's portrayal of Achilles in the big-budget period drama Troy (2004) helped establish his appeal as an<br>
+            action star and was closely followed by a co-starring role in the stylish spy-versus-spy flick Mr. & Mrs.<br>
+            Smith (2005). It was on the set of Mr. & Mrs. Smith that Pitt, who married Jennifer Aniston in a highly<br>
+            publicized ceremony in 2000, met Angelina Jolie. Pitt left Aniston for Jolie in 2005, a break-up that<br>
+            continues to fuel tabloid stories years after its occurrence.<br>
+            <br>
+            <br>
+            He continues to wildly vary his film choices, appearing in everything from high-concept popcorn flicks<br>
+            such as Megamind (2010) to adventurous critic-bait like Inglourious Basterds (2009) and The Tree of Life<br>
+            (2011). He has received two Best Actor Oscar nominations, for The Curious Case of Benjamin Button<br>
+            (2008) and Moneyball (2011). In 2014, he starred in the war film Fury (2014), opposite Shia LaBeouf,<br>
+            Logan Lerman, Jon Bernthal, and Michael Peña.<br>
+            <br>
+            Pitt and Jolie have 6 children, 3 adopted & 3 biological.<br>
+            <br></div>
+    <h1 class="idBio">| News</h1>
+    <div class="News">
+        <div class="text">
+        <h2>Formula 1 Movie</h2>
+        <p>
+         Pitt stars in an F1 film portraying a retired driver mentoring a rookie      <br>
+         filmed at real tracks like the Las Vegas Grand Prix and releasing in June 2025.
+        </p>
+        </div>
+         <img src="./first news.jpg" class="firstphotoinNews">
+    </div><br><hr>
+    <div class="News">
+        <div class="text">
+        <h2>Land of Opportunity</h2>
+        <p>
+         A dystopian movie about farmers resisting economic collapse, with Pitt in the<br>
+         lead role. Filming starts in 2025.</p>
+        </div>
+         <img src="./second news.jpg" class="firstphotoinNews"> </div><br><hr>
+           <div class="News">
+            <div class="text">
+            <h2>Santa Barbara Film Festival</h2>
+            <p>
+                Pitt honored Bradley Cooper,praising his career and directorial work in <br>
+                 Maestro.
+            </p>
+            </div>
+             <img src="./3rd news.jpg" class="firstphotoinNews" style="margin-left:100px;"> </div><br><hr>
+             <div class="News">
+             <div class="text">
+             <h2> Canceled Sequel</h2>
+             <p>
+                Plans for a sequel to Wolves with George Clooneywere recentl dropped <br>
+                due to creative changes.</p>
+             </div>
+              <img src="./4rth news.jpg" class="firstphotoinNews" style="margin-left: 95px;"> </div><br><hr>
+              <div class="News">
+             <div class="text">
+             <h2> Birthday Milestone</h2>
+             <p>
+                Pitt celebrated his 60th birthday quietly while preparing for his next projects.</p>
+             </div>
+              <img src="./5th news.jpg" class="firstphotoinNews" style="margin-left: 65px;"> </div><br><hr>
+              <h1 class="idBio">| Awards</h1>
+              <div class="overview">
+                            <div class="all">
+                                <img src="./awards photo 1.png" class="awardsphoto">
+                                <div class="text1">
+                           <p ><b style="font-size: 18px;">Winner <br> 2020 </b><span style="font-size: small;color: gray; " >
+                            Oscar </span><br> Performance by an Actor in a Supporting Role <br>
+                            Academy Awards, USA </p>
+                            </div>
+                            </div><hr style="width: 700px;margin-right: 700px;">
+                            <br>
+                            <div class="all">
+                                <img src="./second awards.jpeg" class="awardsphoto">
+                                <div class="text1">
+                           <p ><b style="font-size: 18px;">Winner<br> 2014 </b><span style="font-size: small;color: gray; " >
+                            Oscar </span><br> Best Film<br>BAFTA Film Award<br></p>
+                            </div>
+                            </div><hr style="width: 700px;margin-right: 700px;">
+                            <br>
+                            <div class="all">
+                                <img src="./awards photo 3.jpeg" class="awardsphoto">
+                                <div class="text1">
+                           <p ><b style="font-size: 18px;">Winner<br> 2012 </b><span style="font-size: small;color: gray; " >
+                            NSFC Award </span><br> Best Actor<br>Moneyball<br></p>
+                            </div>
+                            </div><hr style="width: 700px;margin-right: 700px;">
+                            <br>
+                            <div class="all">
+                                <img src="./award photo 4.jpeg" class="awardsphoto">
+                                <div class="text1">
+                           <p ><b style="font-size: 18px;">Winner<br> 1996 </b><span style="font-size: small;color: gray; " >
+                            Saturn Award</span><br> Best Supporting Actor<br>12 Monkeys<br></p>
+                            </div>
+                            </div><hr style="width: 700px;margin-right: 700px;">
+                            <br>
+                            <div class="all">
+                                <img src="./awards photo 5.jpeg" class="awardsphoto">
+                                <div class="text1">
+                           <p ><b style="font-size: 18px;">Winner<br> 1995 </b><span style="font-size: small;color: gray; " >
+                            Bronze Wrangler</span><br> Theatrical Motion Picture<br>Legends of the Fall<br></p>
+                            </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
