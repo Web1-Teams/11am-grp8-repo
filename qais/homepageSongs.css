@@ -1,0 +1,32 @@
+.songbody {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .songbody img{
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.5s ease;
+  }
+  .effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+  }
+  .songbody:hover .effect{
+    opacity: 1;
+  }
+  .songbody:hover img{
+    transform: scale(1.1);
+  }
+  
